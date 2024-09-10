@@ -42,3 +42,7 @@ npx prisma db seed
 ```bash
 npm run dev
 ```
+
+![Login Page](https://github.com/girishv694/ipg/blob/main/login.png)
+
+![Home Page](https://github.com/girishv694/ipg/blob/main/home.png)
