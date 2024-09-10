@@ -1,11 +1,8 @@
-// prisma/seed.ts
-
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 async function main() {
-  // Create one user with one city
   await prisma.user.create({
     data: {
       username: "ipgautomotive",
