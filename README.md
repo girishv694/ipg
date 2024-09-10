@@ -1,40 +1,44 @@
-# Welcome to Remix!
+# IPG Project
 
-- 📖 [Remix docs](https://remix.run/docs)
+## Overview
 
-## Development
+This project is a web application that allows users to log in, view a home page with weather information, and add favorite cities for easy access to their weather updates.
 
-Run the dev server:
+## Prerequisites
 
-```shellscript
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) 
+- [npm](https://www.npmjs.com/) 
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/girishv694/ipg.git
+    ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd ipg
+    ```
+
+3. Install the project dependencies:
+
+    ```bash
+    npm install
+    ```
+
+## Running Seeders
+
+To run seeders and populate your database with initial data, use the following command:
+
+```bash
+npx prisma db seed
+```
+
+## Running application
+```bash
 npm run dev
 ```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
